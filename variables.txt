@@ -1,0 +1,9 @@
+var movie = "picachu the detective";
+var isEntertaining = true;
+var movie = "Sonic the Hedgehog";
+var num4 = 7;
+var num6 = 9;
+var product = num6 * num4;
+var favoriteFoods = ['pizza', 'potatoChips', 'popcorn']
+favoriteFoods.shift();
+console.log(movie.length);
