@@ -1,0 +1,11 @@
+class: FoodCourt
+Attributes:
+restaurants (array)
+isAtCapacity (boolean)
+name (string)
+tablesAvailable (integer)
+methods:
+newResturant (updates resturants)
+seatGuest (updates tablesAvailable)
+emptyTable (updates isAtCapacity)
+changeOwnership (updates name)
