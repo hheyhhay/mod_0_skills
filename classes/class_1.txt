@@ -1,0 +1,11 @@
+class : SecurityCheckPoint
+attributes:
+prohibitedItems (array)
+isOpen (boolean)
+linesOpen (integer)
+name (string)
+methods:
+newGuidelines (changes prohibitedItems)
+riskAtSecurity (changes isOpen)
+brokenXray (changes linesOpen)
+addStaff (changes linesOpen)
