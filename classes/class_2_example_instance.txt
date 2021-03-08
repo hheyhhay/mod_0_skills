@@ -5,7 +5,7 @@ isAtCapacity = true
 name = "Awesome Yummy Food Court"
 tablesAvailable = 100
 methods:
-newResturant (restaurants = ['Red Robin', 'TGIF', 'Panda Express', 'A Salad Bar']
-seatGuest (tablesAvailable = 99)
+openNewResturant (restaurants = ['Red Robin', 'TGIF', 'Panda Express', 'A Salad Bar']
+sitGuestAtTable  (tablesAvailable = 99)
 emptyTable (isAtCapacity = false)
 changeOwnership (name = "Fancy Food Court")

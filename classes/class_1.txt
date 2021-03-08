@@ -2,10 +2,10 @@ class : SecurityCheckPoint
 attributes:
 prohibitedItems (array)
 isOpen (boolean)
-openLines (integer)
+numberOfAvailableLines(integer)
 name (string)
 methods:
-newGuidelines (changes prohibitedItems)
-riskAtSecurity (changes isOpen)
-brokenXray (changes openLines)
-addStaff (changes openLines)
+addGuidelines (updates the items in prohibitedItems array)
+breachAtSecurity (changes isOpen to false)
+breakXray (decreases openLines)
+addStaff (increases openLines)

@@ -2,10 +2,10 @@ class : SecurityCheckPoint
 attributes:
 prohibitedItems = ['gun', 'liquids', 'knife', 'salami', 'explosives'];
 isOpen = true;
-openLines = 3;
+numberOfAvailableLines = 3;
 name = "West Wing"
 methods:
-newGuidelines (prohibitedItems = ['gun', 'liquids', 'knife', 'salami', 'explosives', 'lithium battery'];
-riskAtSecurity (isOpen = false)
-brokenXray (openLines = 2)
+addGuidelines (prohibitedItems = ['gun', 'liquids', 'knife', 'salami', 'explosives', 'lithium battery'];
+breachAtSecurity (isOpen = false)
+breakXray  (openLines = 2)
 addStaff (openLines = 4)
